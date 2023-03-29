@@ -22,7 +22,6 @@ function onSubmit(event) {
 
     position += 1;
   }
-
   event.currentTarget.reset();
 }
 function makePromise(position, delay) {

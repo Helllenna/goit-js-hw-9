@@ -8,6 +8,11 @@ const daysEl = document.querySelector('[data-days]');
 const hoursEl = document.querySelector('[data-hours]');
 const minutesEl = document.querySelector('[data-minutes]');
 const secondsEl = document.querySelector('[data-seconds]');
+const timerEl = document.querySelector(".timer")
+timerEl.style.color = "green";
+timerEl.style.display = "flex";
+timerEl.style.gap = "10px";
+
 
 startBtn.disabled = true;
 
